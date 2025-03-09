@@ -4,7 +4,22 @@
 </div>
 <br>
 
+Este projeto é uma solução para o desafio proposto pelo Itaú Unibanco, que consiste no desenvolvimento de uma API REST para processar transações e gerar estatísticas em tempo real.
 
+A API permite o recebimento de transações, a limpeza do histórico e o cálculo de estatísticas com base nas transações realizadas nos últimos 60 segundos. A implementação segue as diretrizes exigidas, utilizando Java e Spring Boot, armazenando os dados em memória.
+
+Além da implementação funcional da API, foram incorporadas melhorias que garantem a qualidade e confiabilidade da solução, incluindo:
+
+- **Testes automatizados**: Cobertura de testes unitários e de integração para validar o funcionamento correto dos endpoints e regras de negócio.
+
+- **Conteinerização**: Uso de Docker para facilitar a execução e portabilidade da aplicação.
+Logs: Implementação de logs estruturados para facilitar a depuração e rastreamento de eventos na aplicação.
+
+- **Observabilidade**: Monitoramento da API com e logs detalhados do **Slf4j**.
+
+- **Tratamento de Erros**: Mecanismo robusto para lidar com erros e fornecer respostas claras e padronizadas.
+
+- **Documentação da API**: Disponibilização da documentação interativa via Swagger, permitindo fácil exploração dos endpoints.
 
 <br>
 
